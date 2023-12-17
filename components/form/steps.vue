@@ -1,6 +1,6 @@
 <template>
     <div class="steps-card">
-        <aside
+        <div
             v-for="(step, index) in steps"
             :key="`${index}-${step}`"
             class="steps-card__row"
@@ -16,7 +16,7 @@
                 <p class="steps-card__row__description__step">Step {{ index + 1 }}</p>
                 <p class="steps-card__row__description__title">{{ step }}</p>
             </div>
-        </aside>
+        </div>
     </div>
 </template>
 

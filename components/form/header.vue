@@ -1,8 +1,8 @@
 <template>
-    <aside class="header">
+    <div class="header">
         <h1 class="header__title">{{ title }}</h1>
         <p class="header__description">{{ description }}</p>
-    </aside>
+    </div>
 </template>
 
 <script>

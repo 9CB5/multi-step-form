@@ -1,5 +1,5 @@
 <template>
-    <aside class="form-parent">
+    <div class="form-parent">
         <FormSteps
             :currentStep="currentStep"
         />
@@ -20,7 +20,7 @@
                 :currentStep="currentStep"
             />
         </div>
-    </aside>
+    </div>
 </template>
 
 <script>
