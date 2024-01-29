@@ -63,10 +63,6 @@
                 type: Object
             }
         },
-        data() {
-            return {
-            }
-        },
         computed: {
             suffix() {
                 let output = "/mo";
@@ -90,9 +86,6 @@
 
                 return output;
             }
-        },
-        methods: {
-
         }
     }
 </script>

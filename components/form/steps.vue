@@ -33,10 +33,6 @@ export default {
         return {
             steps: ["Your info", "Select plan", "Add-ons", "Summary"]
         };
-    },
-    methods: {
-        setSubmitted() {
-        }
     }
 };
 </script>
